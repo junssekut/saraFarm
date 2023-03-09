@@ -7,11 +7,11 @@ return {
             STORING_SEED = 'Storing Seed [x%d %s]',
             STORING_ITEMS = 'Storing Specific Items',
 
-            FARM_INITIALIZING = 'Initializing Farm [%s]',
+            FARM_INITIALIZING = 'Initializing Farm',
             FARM_SKIPPING = 'Skipping Farm [%s]',
-            FARM_NOT_JAMMED = 'Not Jammed [%s]',
-            FARM_FIRE = 'Fire Detected [%s]',
-            FARM_ROTATING = 'Rotating Farm [%s]',
+            FARM_NOT_JAMMED = 'Not Jammed',
+            FARM_FIRE = 'Fire Detected',
+            FARM_ROTATING = 'Rotating Farm',
             FARM_RANDOMING_WOLRD = 'Random World [%s]',
 
             RESTING = 'Resting [%.2f minutes left]',

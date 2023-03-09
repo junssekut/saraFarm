@@ -7,11 +7,11 @@ return {
             STORING_SEED = 'nyimpan seed wkwk [x%d %s]',
             STORING_ITEMS = 'nyimpan barang spesifik sirrr',
 
-            FARM_INITIALIZING = 'mau auto disini kids [%s]',
-            FARM_SKIPPING = 'skip lah ajg [%s]',
-            FARM_NOT_JAMMED = 'ga kejammed sat [%s]',
-            FARM_FIRE = 'ada apii cok [%s]',
-            FARM_ROTATING = 'autoodd sirrr [%s]',
+            FARM_INITIALIZING = 'mau auto kids',
+            FARM_SKIPPING = 'skip lah ajg kaga ada yg ready [%s]',
+            FARM_NOT_JAMMED = 'ga kejammed sat',
+            FARM_FIRE = 'ada apii cok',
+            FARM_ROTATING = 'autoodd sirrr',
             FARM_RANDOMING_WOLRD = 'random world serr [%s]',
 
             RESTING = 'capek ajg [sisa %.2f menit]',

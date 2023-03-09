@@ -7,11 +7,11 @@ return {
             STORING_SEED = 'Menyimpan Biji [x%d %s]',
             STORING_ITEMS = 'Menyimpan Barang Spesifik',
 
-            FARM_INITIALIZING = 'Menginisialisasi Dunia [%s]',
+            FARM_INITIALIZING = 'Menginisialisasi Dunia',
             FARM_SKIPPING = 'Melewati Kebun [%s]',
-            FARM_NOT_JAMMED = 'Tidak Jammed [%s]',
-            FARM_FIRE = 'Ada Api [%s]',
-            FARM_ROTATING = 'Rotasi Kebun [%s]',
+            FARM_NOT_JAMMED = 'Tidak Ter-Jammed',
+            FARM_FIRE = 'Ada Api',
+            FARM_ROTATING = 'Rotasi Kebun',
             FARM_RANDOMING_WOLRD = 'Dunia Acak [%s]',
 
             RESTING = 'Istirahat [sisa %.2f menit]',
