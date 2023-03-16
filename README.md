@@ -6,9 +6,7 @@ description: >-
 
 # 💜 saraFarm
 
-{% hint style="info" %}
-Developed by Machseeman and made with <3!
-{% endhint %}
+**Developed by Machseeman and made with <3!**
 
 Designed to be cheap, reliable, and capable of doing a lot of automated things in Growtopia. You can rotate all of your farms as fast as other expensive script!
 
