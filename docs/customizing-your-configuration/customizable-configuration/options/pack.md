@@ -32,11 +32,30 @@ Try to buy packs after every put and break. Recommended if you want to save your
 
 #### Data
 
+{% hint style="info" %}
+You can use URL for pack data, the format is `name:price:id`. You can also separate the ids with commas ( , ). For example: `world_lock_10_pack:20000:242,1796`.
+{% endhint %}
+
 The data of item pack you wish to buy for every bot.
 
 {% embed url="https://github.com/junssekut/saraItemDatabase/blob/main/ItemDatabase.lua" %}
 Item Database
 {% endembed %}
+
+#### Example URL
+
+```lua
+pack = {
+    enabled = true,
+    backgroundID = 0,
+    limiter = 20000,
+    upgradeBackpack = true,
+    autoConvert = true,
+    buyPutAndBreak = true,
+    
+    data = 'https://rentry.org/exsaraFarmPackData/raw'
+}
+```
 
 #### Example
 
