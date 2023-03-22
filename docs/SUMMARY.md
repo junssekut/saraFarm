@@ -31,6 +31,7 @@
     * [onSuspended](customizing-your-configuration/customizable-configuration/events/onsuspended.md)
     * [onPreFarm](customizing-your-configuration/customizable-configuration/events/onprefarm.md)
     * [onPlant](customizing-your-configuration/customizable-configuration/events/onplant.md)
+    * [onStoringSeed](customizing-your-configuration/customizable-configuration/events/onstoringseed.md)
   * [Options](customizing-your-configuration/customizable-configuration/options/README.md)
     * [Random Row](customizing-your-configuration/customizable-configuration/options/random-row.md)
     * [Check Jammed](customizing-your-configuration/customizable-configuration/options/check-jammed.md)
