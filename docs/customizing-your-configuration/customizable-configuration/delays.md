@@ -9,7 +9,7 @@ Delay values are in milliseconds ( 1000 Milliseconds = 1 Second ).
 |    Key    |            Description           | Default Value |
 | :-------: | :------------------------------: | ------------- |
 |   login   |         Delay after login        | 5000          |
-| skipWorld |    Delay before skipping world   | 5000          |
+| skipWorld |    Delay before skipping world   | 15000         |
 |  buyPack  |     Delay after buying a pack    | 1750          |
 |   punch   | Delay after sending punch packet | 165           |
 |   place   | Delay after sending place packet | 115           |
@@ -22,7 +22,7 @@ Delay values are in milliseconds ( 1000 Milliseconds = 1 Second ).
 
 <pre class="language-lua"><code class="lang-lua"><strong>delays = {
 </strong><strong>    login = 5000,
-</strong><strong>    skipWorld = 5000,
+</strong><strong>    skipWorld = 15000,
 </strong><strong>    buyPack = 1750,
 </strong><strong>    punch = 165,
 </strong><strong>    place = 115,

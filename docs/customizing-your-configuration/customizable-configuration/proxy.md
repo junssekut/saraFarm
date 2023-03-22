@@ -22,12 +22,21 @@ The usage of backup proxy is the same as default proxy, it will follow the index
 
 Backup proxy will trigger after bot disconnected for more than 3 hours, it will switch back and forth from default proxy to backup proxy over time to time.
 
+#### Use Local
+
+{% hint style="info" %}
+This is an useful setting if you have your Remote Desktop Connection IP Address non blocked.
+{% endhint %}
+
+The auto-assign proxies system will use your local Remote Desktop Connection ( RDP ) IP Address.&#x20;
+
 #### Example
 
 ```lua
 proxy = {
     enabled = true,
     limit = 3,
+    useLocal = true,
     proxies = {
         '1.1.1.1:1111:usr:psw',
         '1.1.1.1:1111:usr:psw',

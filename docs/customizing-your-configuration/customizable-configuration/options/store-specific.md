@@ -11,6 +11,7 @@ Item Database
 ```lua
 storeSpecific = {
     enabled = true,
+    backgroundID = 0,
     minimum = 130,
     items = { 242, 2978 },
     storage = {
