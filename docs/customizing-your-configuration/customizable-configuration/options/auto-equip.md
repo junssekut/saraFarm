@@ -10,6 +10,10 @@ Item Database
 
 Enable this option so that your bot will have delay so they will not go into the specific world at the same time.
 
+#### Branch Drop
+
+If this option is enabled, then the bots will branch drop your items if it's in bulk.
+
 #### Limit
 
 {% hint style="info" %}
@@ -30,8 +34,9 @@ autoEquip = {}
 autoEquip = {
     { 
         item = 98, 
-        delayedTake = true, 
-        limit = 30, 
+        delayedTake = true,
+        branchDrop = true,
+        limit = 30,
         storages = { 'sekutpickaxe1:pick', 'sekutpickaxe2:pick' } 
     }
 }
