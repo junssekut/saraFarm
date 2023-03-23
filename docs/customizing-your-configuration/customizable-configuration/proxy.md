@@ -45,6 +45,7 @@ proxy = {
     backup = {
         enabled = true,
         limit = 6,
+        time = 7200,
         proxies = {
             '1.1.1.1:1111:usr:psw',
             '1.1.1.1:1111:usr:psw',
